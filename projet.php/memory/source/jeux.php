@@ -123,7 +123,7 @@ if (!isset($_SESSION["debut_parti"]))
         if ($_SESSION['nbrpoint'] == 12) 
         {
                   pointgagner(1);
-                   $connexion=mysqli_connect("localhost","olivier-crozet","M3Hfz4H8","olivier-crozet_memory");
+                   $connexion = dbconnect();
         $requette_de_supression = "DELETE  FROM jeux ;";
         $supression_de_la_bdd = mysqli_query($connexion,$requette_de_supression);
         $requette_de_supression_parti = "DELETE  FROM point_parti ;";
@@ -187,11 +187,11 @@ if (!isset($_SESSION["debut_parti"]))
         //nobre de point parti gagner niveau 2
   
             nombre_de_point();
-            var_dump($_SESSION['nbrpoint']);
+            
               if ($_SESSION['nbrpoint'] == 30) 
               {
                        pointgagner(3);
-                       $connexion=mysqli_connect("localhost","olivier-crozet","M3Hfz4H8","olivier-crozet_memory");
+                       $connexion = dbconnect();
                        $requette_de_supression = "DELETE  FROM jeux ;";
                        $supression_de_la_bdd = mysqli_query($connexion,$requette_de_supression);
                        $requette_de_supression_parti = "DELETE  FROM point_parti ;";
@@ -270,7 +270,7 @@ if (!isset($_SESSION["debut_parti"]))
               if ($_SESSION['nbrpoint'] == 42) 
               {
                        pointgagner(6);
-                            $connexion=mysqli_connect("localhost","olivier-crozet","M3Hfz4H8","olivier-crozet_memory");
+                            $connexion = dbconnect();
         $requette_de_supression = "DELETE  FROM jeux ;";
         $supression_de_la_bdd = mysqli_query($connexion,$requette_de_supression);
         $requette_de_supression_parti = "DELETE  FROM point_parti ;";

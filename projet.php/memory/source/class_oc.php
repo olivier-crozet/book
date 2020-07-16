@@ -6,7 +6,7 @@ function dbconnect()
      
  
      // return $connexion;
-      return mysqli_connect("localhost","root","","thalassante");
+      return mysqli_connect("localhost","root","","memory");
 }
 /**
  * class utilisateurs 
@@ -31,7 +31,7 @@ class client
                   if ($login < 249 && $password < 249  )
                   {
           
-                    $connexion = dbconnect();
+                    $connexion = mysqli_connect("localhost","root","","memory");
                     $reqdoublon = "SELECT login FROM `utilisateur` where login=\"$login\";";
                     $req=mysqli_query($connexion,$reqdoublon);                 
                     $retour=mysqli_num_rows($req);
@@ -141,7 +141,7 @@ class client
 
             if(isset($_SESSION['im0pass']))
                   {
-                        $connexion = dbconnect();
+                        $connexion = mysqli_connect("localhost","root","","memory");
                             //insertion du liens cliqué//
                     
                  
@@ -164,7 +164,7 @@ class client
                 else
                 {
                  ////////////destruction des données
-                  $connexion = dbconnect();
+                  $connexion = mysqli_connect("localhost","root","","memory");
                   $requettesuprim = "DELETE * FROM jeux ";
                   $fusionrequette = mysqli_query($connexion,$requlien1oc);
 
@@ -190,7 +190,7 @@ class client
  
    function affichage1()
    {
-    $connexion = dbconnect();
+    $connexion = mysqli_connect("localhost","root","","memory");
     //si il a cliqué sur le liens la session a etait creer dans la page jeuxcarte //
      if (isset($_SESSION['im1pass']))
       {
@@ -242,7 +242,7 @@ class client
    
    function affichage2()
    {
-    $connexion = dbconnect();
+    $connexion = mysqli_connect("localhost","root","","memory");
     //si il a cliqué sur le liens la session a etait creer dans la page jeuxcarte //
      
      if (isset($_SESSION['im2pass']))
@@ -294,7 +294,9 @@ class client
    function inserliens($liensimg,$numeropaire)
    {
          # code...
-        $connexion = dbconnect();
+
+        //$connexion = dbconnect();
+         $connexion = mysqli_connect("localhost","root","","memory");
          $requette_inser_reper = "INSERT INTO jeux (liens, paire) VALUES ('$liensimg', '$numeropaire')";     
          $inserer = mysqli_query($connexion,$requette_inser_reper);
 
@@ -315,7 +317,7 @@ public $controlimg = "";
    function controler($controlimg)
    {
 
-     $connexion = dbconnect();
+     $connexion = mysqli_connect("localhost","root","","memory");
     $requete_verif_liens = "SELECT  '$controlimg' FROM jeux  ";
     $verif = mysqli_query($connexion,$requete_verif_liens);
    // $verification = count($verif);
@@ -351,7 +353,7 @@ class paire
   {
    ////metre sa en fonction desous
         
-        $connexion = dbconnect();
+        $connexion = mysqli_connect("localhost","root","","memory");
         $requettepaire = "SELECT paire FROM JEUX WHERE liens = '$liensimage_prcedente' ";  
         $fusionreq = mysqli_query($connexion,$requettepaire);
         $existil =mysqli_fetch_array($fusionreq);
@@ -364,7 +366,7 @@ class paire
      {
 
     
-      $connexion = dbconnect();
+      $connexion = mysqli_connect("localhost","root","","memory");
       $requette_de_supression = "DELETE  FROM jeux  ;";
     
       $supression_de_la_bdd = mysqli_query($connexion,$requette_de_supression);

@@ -6,7 +6,7 @@ function dbconnect()
      
  
      // return $connexion;
-      return mysqli_connect("localhost","root","","thalassante");
+      return mysqli_connect("localhost","root","","memory");
 }
 
 $adresse_serv ="localhost";
@@ -298,7 +298,7 @@ function bouton_melange()
    function inserliens($liensimg,$numeropaire)
    {
         // $connexion = dbconnect();
-         $connexion=mysqli_connect("localhost","root","","memory");
+         $connexion = dbconnect();
          $requette_inser_reper = "INSERT INTO jeux (liens, paire) VALUES ('$liensimg', '$numeropaire')";     
          $inserer = mysqli_query($connexion,$requette_inser_reper);
     }
@@ -307,7 +307,7 @@ function bouton_melange()
 /////////carte 1
  function affichage()
 {
-$connexion = dbconnect();
+  $connexion = dbconnect();
 if (isset($_SESSION['carte_decouverte0']) ) //OR $_SESSION['carte_decouverte0'] != NULL 
 		{
 	     # code...
@@ -525,17 +525,18 @@ if (!empty($_SESSION['carte_decouverte11']) )
 function frere($cartemelanger,$pair,$point)
 {
   //recuperation du liens par la pair
-        $connexion=mysqli_connect("localhost","root","","memory");
+        $connexion = dbconnect();
         $requettepaire = "SELECT liens FROM jeux WHERE paire = $pair";
         $fusionreq = mysqli_query($connexion,$requettepaire);
         $imbdd =mysqli_fetch_array($fusionreq);
 
    //recuperation du nombre de paire  par liens
-       $connexion=mysqli_connect("localhost","root","","memory"); 
+      
        $requettepaires = "SELECT * FROM jeux WHERE liens= '$cartemelanger'";
         $fusionreqs = mysqli_query($connexion,$requettepaires);
         $nbrpair = mysqli_num_rows($fusionreqs);
 
+         
         $requette_total = "SELECT * FROM jeux ";
         $fusiontotal = mysqli_query($connexion,$requette_total);
         $totalimg = mysqli_num_rows($fusiontotal);
@@ -564,7 +565,7 @@ function frere($cartemelanger,$pair,$point)
               {
                 echo "../images/doscarte.jpg";
         //supression image bdd
-                $connexion = dbconnect();
+                 $connexion = dbconnect();
                 $requette_de_supression = "DELETE  FROM jeux ;";    
                 $supression_de_la_bdd = mysqli_query($connexion,$requette_de_supression);
 
@@ -617,7 +618,7 @@ function pointgagner($point_final)
 function suprimesession_bdd_jeux()
 {
           //supression image bdd
-                $connexion = dbconnect();
+               $connexion = dbconnect();
                 $requette_de_supression = "DELETE  FROM jeux ;";    
                 $supression_de_la_bdd = mysqli_query($connexion,$requette_de_supression);
 
