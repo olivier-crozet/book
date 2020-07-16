@@ -1,0 +1,36 @@
+a
+{
+     text-decoration: none;
+}
+.ul_header
+{
+  list-style: none;
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+.oc_header
+{
+	    margin: 0;
+    background-color: #262626a1;
+    padding: 1%;
+}
+.oc_a_header
+{
+	color: white
+}
+.oc_a_header :hover
+{
+	color: red;
+}
+.oc_bouton_deco
+{
+    background-color: #ffffff00;
+    border: solid #ffffff00;
+    color: white;
+}
+.oc_bouton_deco :hover
+{
+	color: red;
+}

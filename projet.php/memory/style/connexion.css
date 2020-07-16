@@ -1,0 +1,33 @@
+html
+{
+	min-height: 100%;
+}
+body
+{
+	background-image: url(../images/bg-connexion.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.oc-h1-connexion
+{
+	color: white;
+	text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.oc-form-connexion
+{
+	color: white;
+	width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.inputlog
+{
+	margin-left: 9%;
+}
+.oc-p-connexion
+{
+	color: white;
+	text-align: center;
+}

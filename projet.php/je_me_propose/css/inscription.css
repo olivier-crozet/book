@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.inscription{
+    background-color: rgb(34, 206, 157);
+    background-attachment:fixed;	
+    background-size:cover;
+    margin:0;
+    padding:0;
+}
+
+fieldset{
+  border-radius: 5px;
+}
+
+legend{
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 18px;
+  text-shadow: black 0.1em 0.1em 0.2em; 
+  display:flex;
+  text-align: center;
+  background: rgb(0,106,115);
+background: radial-gradient(circle, rgba(0,106,115,0.6143499636182599) 0%, rgba(0,241,149,1) 100%);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+ border-bottom: 2px solid white;
+ height:18.5px;
+}
+
+
+form{
+  width:22%;
+  min-width:190px;
+  border-radius: 15px;
+  background-color: white;
+  background-size:cover;
+  padding: 20px; 
+  text-align: center;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 15px;
+  box-sizing: border-box;  
+  font-family: 'Varela Round', sans-serif;
+}
+
+input[type=password], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+
+
+input[type=submit] {
+  width: 50%;
+  background-color:rgb(28, 145, 111);
+  color: white;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  margin-top:3%;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+input[type=reset] {
+  width: 50%;
+  background-color: #df773b ;
+  color: white;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(8, 44, 34);
+}
+input[type=reset]:hover {
+  background-color: #5c380c;
+}
+
+.form-style-5{
+display:flex;
+justify-content:center;
+margin-top:5%;
+}
+
+
+
+
+
+
+
+

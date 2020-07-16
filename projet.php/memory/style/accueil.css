@@ -1,0 +1,31 @@
+html
+{
+	min-height: 100%;
+}
+body
+{
+	background-image: url(../images/bg-score.jpg);
+}
+.oc-h1-accueil
+{
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+}
+.oc-div-socre
+{
+
+
+    margin: auto;
+    width: 17%;
+    text-align: center;
+    margin-top: 3%;
+    background-color: #cececea1;
+    padding: 2%;
+    font-size: 33px;
+}
+.thead
+{
+	text-align: center;
+	margin: auto;
+}

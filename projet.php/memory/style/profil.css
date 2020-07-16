@@ -1,0 +1,21 @@
+html
+{
+	min-height: 100%;
+}
+body
+{
+	background-image: url(../images/bg-connexion.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.oc-h1-profil
+{
+	text-align: center;
+}
+.oc-form-profil
+{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}

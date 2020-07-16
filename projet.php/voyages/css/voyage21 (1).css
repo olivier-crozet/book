@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Rosarivo&display=swap');
+
+body{
+	margin: 0;}
+main{margin-top: 5%;
+	height: 100%;
+}
+.drap{
+	width: 100%;
+	height: 1135px;
+	background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/2000px-Flag_of_Norway.svg.png");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+#velk{
+	position: absolute;
+	top: 20%;
+	left:2%;
+	font-size: 300%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	text-shadow: 1px 1px 1px black;
+}
+
+#lanor{
+	position: absolute;
+	top: 34%;
+	left:55%;
+	font-size: 400%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	text-shadow: 1px 1px 1px black;
+}
+
+#carte{
+	position: absolute;
+	width: 23%;
+	top: 100%;
+	left: 58%;
+	border: solid 5px white;
+	box-shadow: 5px 5px 5px black;
+}
+
+#com{
+	position: absolute;
+	width: 25%;
+	top: 100%;
+	left: 2%;
+	font-size: 400%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+
+
+
+#riv{
+	width: 100%;
+	height:1000px;
+	background:url("https://www.scanditours.fr/wp-content/uploads/sites/4/2019/10/ATYFNA5hVmkAN1IsD2JXMQA7VGgBOAAuXWYjpg-1366x519.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+#div-riv{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ea0e0e54;
+	color: white;
+	padding: 1%;
+	position: relative;
+	top: 5%;
+	left: 15%;
+	box-shadow: 5px 5px 5px black;
+	font-family: 'Rosarivo', serif;
+}
+#zone-img{
+	position: relative;
+	top: 10%;
+	left: 25%;
+	background-color: #ea0e0e54;
+	width: 51%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 1.5%;
+	padding-bottom: 1%;
+	box-shadow: 5px 5px 5px black;
+}
+
+.sec-img{
+	display: flex;
+}
+.tab-img{
+	width: 200px;
+	height: 100px;
+	transition: all 0.5s ease-out;
+	z-index: 1000;
+}
+.tab-img:hover{
+	transform: scale(2.5);
+	box-shadow: 5px 5px 5px black;
+	z-index: 10000;
+
+}
+p{
+	text-align: justify;
+}
+.div-lien{
+	position: relative;
+	background-color: #ea0e0e54;
+	width: 10%;
+	text-align: center;
+	box-shadow: 5px 5px 5px black;	
+	padding: 1%;
+	transition: all 2s;
+}
+.div-lien:hover{
+	transform: rotate3d(-33, 22, 4, 720deg) scale(1.3);
+}
+.lien{
+	color: white;
+	font-family: 'Rosarivo', serif;
+	width: 100%;
+	font-size: 200%;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px black;
+}
+#riv-lien{
+	top: 20%;
+	left: 45%;
+
+}
+#boreal{
+	width: 100%;
+	height:  1100px;
+	background:url("https://photos.altai-travel.com/1920x1040/aurores-boreales-en-laponie-norvegienne-1155.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#boreal-h1{
+	position: relative;
+	top: 20%;
+	left: 45%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	margin: 0;
+	text-shadow: 1px 1px 1px black;
+	display: block;
+	width: 50%;
+}
+#boreal-art{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ea0e0e54;
+	position: relative;	
+	top: 25%;
+	left: 25%;
+	padding: 1%;
+	font-family: 'Rosarivo', serif;
+	color:white;
+	font-size: 150%;
+	box-shadow: 5px 5px 5px black;	
+}
+#boreal-art-h1{
+
+}
+#boreal-lien{
+	top: 35%;
+	left: 70%;
+}
+
+#black{
+	width: 100%;
+	height:  1100px;
+	background:url("https://vice-images.vice.com/images/articles/meta/2013/11/22/true-norwegian-black-metal-1413428335578.jpeg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+#black-h1{
+	margin: 0;
+	position: relative;
+	top: 5%;
+	left: 10%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	width: 80%;
+	text-shadow: 1px 1px 1px black;
+}
+
+#black-art{
+	width: 45%;
+	align-items: center;
+	background-color: #ea0e0e54;
+	position: relative;	
+	top: 10%;
+	left: 15%;
+	padding: 1%;
+	font-family: 'Rosarivo', serif;
+	color:white;
+	font-size: 150%;
+	box-shadow: 5px 5px 5px black;	
+}
+#mayhem{
+	width: 20%;
+	position: relative;
+	top: 20%;
+	left: 30%;
+	box-shadow: 5px 5px 5px black;	
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/61HXjqj6XRL.jpg');
+	height: 25%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#black-lien{
+	top: 25%;
+	left: 10%;
+}
+#drap-h1{
+	position: relative;
+	top: 20%;
+	left: 50%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	margin: 0;
+	text-shadow: 1px 1px 1px black;
+	display: block;
+	width: 50%;
+}
+
+@keyframes drakkar {
+  0% { transform: translate(0px, 0px)  rotate(0); }
+  10% { transform: translate(100px, 0px)  rotate(-20deg); }
+  20% { transform: translate(200px, 0px); }
+  30% { transform: translate(200px, 0px) rotateY(180deg) rotate(-20deg); }
+  40% { transform: translate(100px, 0px) rotateY(180deg); }
+  50% { transform: translate(0px, 0px) rotateY(180deg) rotate(-20deg); }
+  60% { transform: translate(-100px, 0px) rotateY(180deg); }
+  70% { transform: translate(-200px, 0px) rotateY(180deg) rotate(-20deg); }
+  80% { transform: translate(-200px, 0px) ;}
+  90% { transform: translate(-100px, 0px)  rotate(-20deg); }
+  100% { transform: translate(0px, 0px) ; }
+}
+#drak{
+	width: 30%;
+	position: relative;
+	top: 380px;
+	left: 20%;
+	animation: drakkar 4s;
+  	animation-iteration-count: infinite;
+}
+
+#drap-lien{
+	top: 400px;
+	left: 60%;
+    background-color: #a0828252;
+}

@@ -1,0 +1,237 @@
+body{
+	margin: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap');
+main{
+	margin-top: 5%;
+}
+.section{
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+	width: 100% !important;
+	height: 1500px !important;
+}
+#drap{
+	background:url("https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg");
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+#h1-drap{
+	margin: 0;
+	padding: 1%;
+	font-size: 600%;
+	font-family: 'Gentium Basic', serif;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+#div-drap{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 1%;
+	padding-right: 5%;
+}
+#armoirie-drap{
+	width: 35%;
+}
+#ul-drap{
+	margin: 0;
+	list-style-type: none;
+	font-size: 600%;
+	font-family: 'Gentium Basic', serif;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+#carte-drap{
+	width: 30%;
+	margin: auto;
+}
+
+#arc{
+	background:url("https://hotelroyalparadise.com/sites/hotelroyalparadise.com/files/styles/large/public/images/tumblr_lpm5jw45dp1qclof3o1_1280.jpg");
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#h1-arc{
+	margin: 0;
+	padding: 1%;
+	font-size: 450%;
+	font-family: 'Gentium Basic', serif;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+#div-arc
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+#arc-present{
+	margin: 0;
+	width: 20%;
+	text-align: justify;
+	background: #deb887a1;
+	padding: 1%;
+	font-size: 145%;
+	font-family: 'Gentium Basic', serif;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 5px 5px 5px black;	
+}
+#img-arch{
+	box-shadow: 5px 5px 5px black;
+}
+#div-arc2
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 5%;
+
+}
+
+#img-statu
+{
+	width: 50%;
+	margin-bottom:  10%;
+	box-shadow: 5px 5px 5px black;
+}
+.div-lien{
+	position: relative;
+	background-color: #deb887a1;
+	padding: 1%;
+	width: 10%;
+	text-align: center;
+	box-shadow: 5px 5px 5px black;	
+	padding: 1%;
+	transition: all 2s;
+}
+.div-lien:hover{
+	transform: rotate3d(-33, 22, 4, 720deg) scale(1.3);
+}
+.lien{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	font-family: 'Rosarivo', serif;
+	width: 100%;
+	font-size: 200%;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
+#vaudou
+{
+	background:url("https://beninoscopie.files.wordpress.com/2014/01/crmonie-vaudou-ouidah-2010.jpg"); 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+#h1-vaudou
+{
+	margin-top: 3%;
+	font-size: 400%;
+	font-family: 'Gentium Basic', serif;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+#vaudou-present
+{
+	width: 90%;
+	font-size: 145%;
+	background: #deb887a1;
+	padding: 1%;
+	color: white;
+	text-align: justify;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 5px 5px 5px black;	
+}
+
+#div-vaudou{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+
+}
+.img-vaudou{
+	width: 40%;
+
+}
+
+#chute{
+	background:url("http://www.bastina.fr/images/illustrations/images/BENIN%20FASO%2012%2007%20170_1074x806.jpg"); 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#h1-chute{
+	margin:0;
+	font-size: 400%;
+	display: inline;
+	width: 90%;
+	font-family: 'Gentium Basic', serif;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+#p-chute{
+	font-size: 145%;
+	width: 80%;
+	font-family: 'Gentium Basic', serif;
+	text-align: justify;
+	background: #deb887a1;
+	padding: 1%;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 5px 5px 5px black;	
+}
+#div-chute{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 1%;
+}
+#img-chute{
+	box-shadow: 5px 5px 5px black;
+}
+@keyframes masque {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  10% { transform: translate(0px, -50px) rotate(0deg); }
+  20% { transform: translate(0px, -100px) rotate(10deg); }
+  30% { transform: translate(0px, -150px) rotate(0deg); }
+  40% { transform: translate(0px, -200px) rotate(-10deg); }
+  50% { transform: translate(0px, -200px) rotate(0deg); }
+  60% { transform: translate(0px, -200px) rotate(10deg); }
+  70% { transform: translate(0px, -150px) rotate(0deg); }
+  80% { transform: translate(0px, -100px) rotate(-10deg); }
+  90% { transform: translate(0px, -50px) rotate(0deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+#img-masque{
+	width: 20%;
+	margin-top: 15%;
+	animation: masque 1.2s;
+  	animation-iteration-count: infinite;
+}

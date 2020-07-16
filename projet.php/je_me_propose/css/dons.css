@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: arial, sans-serif;
+}
+header{
+    background-color: var(--secondaryColor);
+    grid-area: header;
+}
+
+/*HEADER*/
+.header-logo-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo-title img{
+    width: 100px;
+}
+.header-logo-title h1{
+    margin: 0;
+    color: var(--secondaryColor);
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(34, 206, 157);
+    padding: 1em;
+}
+header a{
+    text-decoration: none;
+    color: var(--primaryColor);
+    transition: 0.3s;
+}
+header a:hover{
+    opacity:0.7;
+}
+/*main*/
+body
+{
+	background-image: url(../pics/img/help-people.png);
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titre
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 200px;
+	align-content: space-around;
+}
+
+.Plot
+{
+	height: 60px;
+	width: 60px;
+}
+
+.maintenance
+{
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tete
+{
+	height: 150px;
+	width: 150px;
+}
+
+.Tout
+{
+	display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border: 3px solid #3A6998;
+  text-align: center;
+  background: rgb(173, 207, 244);
+  margin: auto;
+  margin-top: 3em;
+}
+
+.Tout p, h1
+{
+  color: #2F3A4B;
+}
+
+a
+{
+  color:#0faf7f;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+a:hover
+{
+  opacity:0.5;
+}

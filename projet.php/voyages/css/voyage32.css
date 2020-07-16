@@ -1,0 +1,292 @@
+a
+{
+	text-decoration: none;
+}
+.oc-liens
+		{
+		text-decoration: none;
+		color:white;
+		padding: 4%;
+		list-style-type: none;
+		font-size: 130%;
+		}
+
+.section-voyage32
+				{
+					margin-top: 5%;
+				}
+
+.oc-article-drapeau
+				{
+					background-image: url(../image/drapeau-turque.jpg);
+					height: 600px;
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+				}
+h1
+	{
+		text-align: center;
+		padding-top: 50px;
+		color: white;
+		font-size: 64px;
+
+	}
+.oc-div-ul1
+			{		
+			font-size: 30px;
+			margin-top: -5%;
+			color:white;
+			width: 50%;
+			text-align: unset;
+			float: right;
+			}
+.oc-section1-32
+				{
+				 background-image: url(../image/drap-turqui.jpg);
+				 background-size: cover;
+				 background-repeat: no-repeat;
+				 background-attachment: fixed;
+				}
+.oc-section-32
+				{
+				 display: flex;
+				 flex-direction: row;
+				 justify-content: space-around;
+				 
+				 
+				 padding: 5%;
+				}
+.article1-ville32
+				{    border-radius: 10px;
+					font-size: 20px;
+					font-weight:bold;
+					background-image: url(../image/foto-istanbul.jpg);
+					width: 30%;
+					padding: 5%;
+					height: 200px;
+					overflow: scroll;
+					color: white;
+					overflow-x: hidden;
+					border:1px solid white;
+					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+					background-size: 66% 100%;
+   				    background-position: -15% 85%;
+   				    background-size: cover;
+   				    text-shadow: 2px 2px black;
+				}
+h2
+	{
+	text-align: center;
+	margin: 0;
+	font-size: 200%;
+	color:
+	white;
+	text-shadow: 2px 2px 3px black;
+	}
+.lebazar
+		{
+			width: 90%;
+			margin: auto;
+		}
+
+.article2-ville32
+				{	 border-radius: 10px;
+					font-size: 20px;
+					font-weight:bold;
+					width: 30%;
+					background-image:url(../image/pamukaler-foto1.jpg);
+					padding: 5%;
+					color: white;
+					overflow: scroll;
+					overflow-x: hidden;
+					height: 200px;
+					border:1px solid white;
+					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+					background-size: 100%;
+   					 background-repeat: no-repeat;
+  				    text-shadow: 2px 2px black;
+  				    background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+
+				}
+.div-izmir
+			{	
+				 border-radius: 10px;
+				font-size: 20px;
+				font-weight:bold;
+				width: 30%;
+				background-image: url(../image/foto-izmir.png);
+				padding: 5%;
+					height: 200px;
+					overflow: scroll;
+					color: white;
+					overflow-x: hidden;
+					border:1px solid white;
+					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 80%;
+
+			}
+.div-capadoce
+			{	
+				 border-radius: 10px;
+				font-size: 20px;
+				font-weight:bold;
+				width: 30%;
+				background-image: url(../image/foto-capadoce.jpg);
+				background-size: cover;
+				padding: 5%;
+					height: 200px;
+					overflow: scroll;
+					color: white;
+					overflow-x: hidden;
+					border:1px solid white;
+					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 100%;
+  				    background-repeat: no-repeat;
+			}
+.im-cap
+		{
+		 width: 90%;
+		}
+
+.article-monument
+				{
+				 display: flex;
+				 flex-direction: row;
+				 justify-content: space-around;
+				 padding: 5%;
+				 
+				}
+.div-saintesophie
+				{
+					 border-radius: 10px;
+				font-size: 20px;
+				font-weight:bold;
+				 width: 30%;
+				background-image: url(../image/basilique-sainte-sophie.jpg);
+				background-size: cover;
+				padding: 5%;
+					height: 200px;
+					overflow: scroll;
+					color: white;
+					overflow-x: hidden;
+					border:1px solid white;
+					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 100%;
+  				    background-repeat: no-repeat;
+				}
+.titre
+				{
+					background-color: #efd295;
+				}
+.div-sous-terre
+				{
+					 border-radius: 10px;
+				font-size: 20px;
+				font-weight:bold;
+				  width: 30%;
+				background-image: url(../image/ville-sous-terre.jpg);
+				background-size: cover;
+				padding: 5%;
+					height: 200px;
+					overflow: scroll;
+					color: white;
+					overflow-x: hidden;
+					border:1px solid white;
+					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 70%;
+  				    background-repeat: no-repeat;
+  				    background-position: 80% 99%;
+				}
+.div-mosqué-blue
+			{	
+				 border-radius: 10px;
+				font-size: 20px;
+				font-weight:bold;
+			 	 width: 30%;
+				background-image: url(../image/mosquee-blue.jpg);
+				background-size: cover;
+				padding: 5%;
+				height: 200px;
+				overflow: scroll;
+				color: white;
+				overflow-x: hidden;
+				border:1px solid white;
+				box-shadow: 4px 4px 7px #4b0d0d;
+				background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 70%;
+  				    background-repeat: no-repeat;
+  				background-position: 0% 100%;
+			}
+.stade
+		{
+				 border-radius: 10px;
+				 font-size: 20px;
+				font-weight:bold;
+			 	 width: 30%;
+				background-image: url(../image/stade-turk.jpg);
+				background-size: cover;
+				padding: 5%;
+				height: 200px;
+				overflow: scroll;
+				color: white;
+				overflow-x: hidden;
+				border:1px solid white;
+				box-shadow: 4px 4px 7px #4b0d0d;
+				background-attachment: fixed;
+				background-position: 83% 100%;
+  				background-size: 42% 90%;
+    			background-repeat: no-repeat;
+  				text-shadow: 2px 2px black;
+		}
+.monument2
+			{
+				padding:5%;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+.tableau
+		{
+    margin: auto;
+    border: 1px solid white;
+	border-collapse: collapse;
+	color:white;
+	margin-top: 5%;	 
+		}
+.table
+		{
+		background-color: #efd2959c;
+		width: 20%;
+		display: block;
+		margin:auto;
+		padding: 2%;
+		box-shadow:4px 3px 5px black;
+		}
+tr td
+	{
+		border: 1px solid white;
+		 border-collapse: collapse;
+		 color: white;
+		 box-shadow: 2px 2px black;
+	}
+.oc-section3-32
+				{
+					background-image: url(../image/drapeau-turque.jpg);
+				 background-size: cover;
+				 background-repeat: no-repeat;
+				 padding-bottom: 2%;
+				 background-attachment: fixed;
+				}

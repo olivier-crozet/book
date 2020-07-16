@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1000px){
+nav
+{
+  position: sticky;
+  position: fixed;
+    z-index: 1021;
+}
+#oc-nav-pc
+{
+  display: none;
+}
+#menuToggle
+{
+
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 22px;
+  z-index: 1;
+  /*-webkit-user-select: none;*/
+/*  user-select: none;*/
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: white;
+  
+  transition: color 0.3s ease;
+}
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; 
+  z-index: 2; 
+  -webkit-touch-callout: none;
+}
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: black;
+  z-index: 1; 
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: white;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+.oc-ul-nav
+{
+
+  display: none;
+}
+
+.oc-ul-nav li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul 
+{
+  transform: none;
+}
+.oc-img-loupe-nav
+{
+  display: none;
+}
+.oc-img-blok-nav
+{
+   display: none;
+}
+#menu
+{
+  padding-bottom: 10px;
+  position: absolute;
+  width: 195px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 105px;
+  background: #52a8d1;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 60px;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+}
+
+
+/*-----------hover-----------navt text */
+
+
+
+
+/*footer*/
+.oc-footer-navigation
+{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-around;
+  background-color: #011129;
+  color: white;
+
+}
+a:link 
+{ 
+ text-decoration:none; 
+color: white;
+}
+.oc-nav2
+{
+  list-style: none;
+
+}
+}

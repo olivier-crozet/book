@@ -1,0 +1,115 @@
+
+.cv{
+	background-image:url("fond1.jpg");
+	
+	font-size:16px;
+	font-family: sans-serif; 
+}
+.colone-gauche
+               {
+               
+               max-width: 13%;
+                text-align: center;
+                background-color:#C0C0C0;
+                height:1000px;
+                font-size: 20px;
+                margin-top: 0px;
+                padding:10px;
+                float:left;
+               margin-right:0px;
+               }
+#cro
+    {
+     font-size:40px;
+     line-height:10px;
+     margin-bottom:-5px;
+    }
+#moniteur
+         {
+         	color:red;
+         	font-size: 20px;
+         }
+    
+ .infos
+       {
+       	
+       	display:flex;
+       	margin-left:250px;
+       	margin-right:150px;
+       	
+       	margin-bottom:50px; 
+       	width:650px; 
+       	height: 50;
+       	text-align:center;
+       	border-bottom: 2PX solid black;
+       }   
+#text
+     {
+
+     }
+
+.foto
+      {
+      	margin-top:50px;
+      	width: 200PX;
+     	float:right;
+     	border-radius: 50%;
+     	margin-right: 150px;
+     	
+      }
+#div_foto 
+      {
+       position:absolute;
+      top: -2px;
+      right: -9px;
+      }
+
+.competence
+           {
+       	display: flex;
+        margin-left: 247px;
+        width: 658px;
+        border-bottom: 2PX solid black;
+        flex-direction: column;
+
+           }
+
+.experience
+           {
+            margin-left: 221px;
+            margin-top: 16px;
+            border-bottom: 2PX solid black;
+            margin-bottom: 25PX;
+           }
+
+.formation
+           {
+           	margin-left: 215px;
+            border-bottom: 2PX solid black;
+
+           }           
+.distinction
+            {
+             text-align: center;
+             margin-top: 28px;
+            }
+.telecharger
+{
+  display: flex;
+    justify-content: space-between;
+    width: 150%;
+}
+.date
+{
+  margin-top: -13px;
+  font-size: 12PX;
+  color: grey;
+}
+.para
+{
+  font-size: 13px;
+}
+.distinctiont
+{
+  margin-top: 180px;
+}

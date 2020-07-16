@@ -1,0 +1,323 @@
+body
+{
+	margin: 0;
+}
+
+
+main
+{
+	
+	margin-top: 5%;
+}
+.drap
+{
+	width: 100%;
+	height: 1200px;
+	background:url("../image/brazil.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+
+#riv
+{
+	width: 100%;
+	height:1000px;
+	background:url("../image/amazonia.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+#rio{
+	width: 100%;
+	height:  1100px;
+	background:url("../image/view.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#carnaval
+{
+	width: 100%;
+	height:1000px;
+	background:url("../image/carnavalrio.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+p
+{
+    font-size: 360%; 
+    margin: 0%;
+    text-shadow: 3px 3px 3px yellow;
+    color: darkgreen;
+    
+}
+
+#ola
+{
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+
+#Bem
+{
+    position: absolute;
+    top: 570px;
+    left: 50%;
+   
+}
+
+#Brésil
+{
+	position: absolute;
+    top: 900px;
+    left: 90px;
+
+}
+
+
+
+#div-riv
+{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#adff2fc2;
+	color: white;
+	padding: 1%;
+	position: relative;
+	top: 37%;
+	left: 5%;
+	box-shadow: 5px 5px 5px black;
+	font-family: 'Rosarivo', serif;
+	border-radius: 7%;
+}
+
+.brazil-location
+{
+	border-radius: 11%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    -webkit-box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+    box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+	margin-top: 2%;
+	margin-left:45% ;
+    background-image: url("../image/brazil-location.jpg");
+    background-size: cover;
+    height: 27%;
+    width: 40%;
+}
+
+#un-grand-pays-h1
+{
+	position: relative;
+	top: 20%;
+	left: 30%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	margin: 0;
+	text-shadow: 1px 1px 1px black;
+	display: block;
+	width: 50%;
+}
+
+#div-amazonie
+{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#adff2fc2;
+	color: white;
+	padding: 1%;
+	position: relative;
+	top: 20%;
+	left: 5%;
+	box-shadow: 5px 5px 5px black;
+	font-family: 'Rosarivo', serif;
+	border-radius: 7%;
+}
+
+
+#amazonieh1
+{
+	position: relative;
+	top: 10%;
+	left: 30%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	margin: 0;
+	text-shadow: 1px 1px 1px black;
+	display: block;
+	width: 50%;
+}
+
+.amazoniebiodiversite
+{
+	border-radius: 5%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    -webkit-box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+    box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+	margin-top: -6%;
+	margin-left:55% ;
+    background-image: url("../image/amazoniebiodiversite.jpg");
+    background-size: 100% 100%;
+    height: 45%;
+    width: 25%;
+}
+
+.amazoniebiodiversite:hover
+{
+	transform: scale(1.1);
+}
+
+
+.parrotgif
+{
+	
+	margin-top: -20%;
+	margin-left:5% ;
+}
+
+
+.div-lien{
+	position: relative;
+	background-color: #adff2fc2;
+	width: 10%;
+	text-align: center;
+	box-shadow: 5px 5px 5px black;	
+	padding: 1%;
+	transition: all 2s;
+}
+.div-lien:hover{
+	transform: rotate3d(-33, 22, 4, 720deg) scale(1.3);
+}
+
+#riv-lien
+{
+	top: 20%;
+	left: 45%;
+
+}
+	
+	.lien{
+	color: white;
+}
+
+.div-lien{
+		position: relative;
+		background-color:#adff2fc2;
+		width: 10%;
+		text-align: center;
+		box-shadow: 5px 5px 5px black;	
+		padding: 1%;
+		transition: all 2s;
+	}
+.div-lien:hover{
+		transform: rotate3d(-33, 22, 4, 720deg) scale(1.3);
+	}
+	
+#amazonie-lien
+	{
+		top: -8%;
+		left: 35%;
+	}
+
+	#carnavalh1
+{
+	position: relative;
+	top: 10%;
+	left: 30%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	margin: 0;
+	text-shadow: 1px 1px 1px black;
+	display: block;
+	width: 50%;
+}
+
+#div-carnaval
+{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#adff2fc2;
+	color: white;
+	padding: 1%;
+	position: relative;
+	top: 37%;
+	left: 8%;
+	box-shadow: 5px 5px 5px black;
+	font-family: 'Rosarivo', serif;
+	border-radius: 7%;
+}
+
+
+#carnaval-lien
+	{
+		top: 60%;
+		left: 36%;
+	}
+
+
+.video-carnaval
+{
+	margin-top:4%;
+	margin-left:50%;
+
+}
+
+iframe
+{
+	border-radius: 13%;
+}
+
+#lastpage-lien
+{
+	top: 39%;
+	left: 45%;
+		
+}
+
+
+#obrigado
+{
+    position: relative;
+    top: 740%;
+    left: 1%;
+   
+}
+
+
+#abientot
+{
+    position: relative;
+    margin-top: 25%;
+   
+}
+
+#traduction
+{
+	position: relative;
+    top: 730%;
+    left: 1%;
+   font-size:165%;
+}
+
+
+	
+

@@ -1,0 +1,12 @@
+.formulaire{
+  margin-left: 40%;
+  width: 20%;
+  padding: 3%;
+  margin-top: 10%;
+  background-color: rgb(34, 206, 157);
+  border-style: solid;
+  text-align: center;
+}
+h1#titre{
+  margin-left: 37%;
+}

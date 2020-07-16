@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inria Serif', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: rgb(34, 206, 157);
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.contact-us{
+  width: 250px;
+  background: #fff;
+  padding: 50px;
+  margin: 100px auto;
+  border-radius: 20px;
+  position: relative;
+}
+
+.title h1{
+  color: #535274;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form,
+.form-items{
+  width: 100%;
+}
+
+.form-items .input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #ebeef1;
+  border: 0px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.form-items .input.message{
+  height: 125px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  resize: none;
+}
+
+.btn{
+  background: #01b35a;
+  text-align: center;
+  color: #fff;
+  padding: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn .fas{
+  margin-left: 10px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.form-items{
+  position: relative;
+}
+
+.form-items .fas{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #9a99aa;
+}

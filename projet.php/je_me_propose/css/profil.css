@@ -1,0 +1,72 @@
+html
+{
+    height: 100%;
+}
+
+.oc-body-accueil-btp
+{
+    height: 100%;
+}
+.container-mise-en-page
+{
+    height: 100%;
+}
+
+.oc-div-image
+{
+	  
+
+}
+.section-deventure
+{flex-direction: row;
+	text-align: center;
+	    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  margin:0;
+  padding: 0;
+height: 32%;
+}
+.oc-div-infos
+{
+	    
+}
+.oc-tablinscri
+{
+	margin: auto;
+       height: 70%;
+    background-color: rgb(34, 206, 157);
+    padding: 2%;
+    color: white;
+    border: solid gray;
+    
+
+}
+.buton-inscription
+{
+	text-align: center;
+    margin-left: 40%;
+    margin-left: 45%;
+    text-align: center;
+    margin-left: 45%;
+    background-color: #9E9E9E;
+    box-shadow: 3px 3px 6px;
+}
+.oc-form-profil
+{
+    background-color: #28a4bc;
+    padding: 1%;
+    font-size: 30px;
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+}
+.oc-img-profil
+{
+    border: solid rgb(34, 206, 157) 3px;
+    height: 65%;
+}
+#oc-bgx
+{
+    background-color: rgb(6, 85, 178);
+}

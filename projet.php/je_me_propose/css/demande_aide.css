@@ -1,0 +1,152 @@
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
+
+h1
+{
+  text-align: center;
+  animation-duration: 1.5s;
+  animation-name: flipInX;
+  color: #2F3A4B;
+}
+
+.couleur
+{
+ padding:10px;
+ width:300px;
+ margin: auto;
+ border-radius: 1rem;
+ animation-duration: 1.5s;
+animation-name: flipInX;
+background-color: rgb(34, 206, 157);
+}
+
+select
+{
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+select
+{
+ margin-top:10px;
+}
+
+input[type=radio]
+{
+ background-color:transparent;
+ border:none;
+}
+
+textarea
+{
+  width: 270px;
+  height: 400px;
+}
+
+.tab_css
+{
+  border: 3px solid;
+}
+#content{
+  margin-left: 40%;
+}
+.form-style-5{
+display:flex;
+justify-content:center;
+margin-top:5%;
+background-color: rgb(34, 206, 157);
+width: 40%;
+margin: auto;
+border-style: solid;
+}
+option, select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+
+
+option {
+  width: 50%;
+  background-color:rgb(28, 145, 111);
+  color: white;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  margin-top:3%;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+option {
+  width: 50%;
+  background-color: #df773b ;
+  color: white;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+option:hover {
+  background-color: rgb(8, 44, 34);
+}
+option:hover {
+  background-color: #5c380c;
+}
+table{
+  text-align: center;
+  border-style: solid;
+  margin: auto;
+}
+td{
+  border-style: solid;
+  width: 10%;
+  overflow-wrap: break-word;
+  color: white;
+  background-color: rgb(34, 206, 157);
+}
+tr.premiere-ligne{
+  background-color: orange;
+  font-size: 30px;
+  background-color:#2f3a4b;
+  margin:auto;
+}
+#oc_baba
+{
+  height: 80PX;
+}

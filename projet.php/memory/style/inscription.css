@@ -1,0 +1,23 @@
+html
+{
+	min-height: 100%;
+}
+body
+{
+	background-image: url(../images/bg-connexion.jpg);
+}
+.oc-h1-inscription
+{
+	text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+.oc-form-inscription
+{
+	color: white;
+    margin: auto;
+    width: 20%;
+    background-color: #2263326b;
+    padding: 2%;
+    margin-top: 11%;
+}
